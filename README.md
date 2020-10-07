@@ -14,6 +14,7 @@
         'host': 'db',
         'port': '3306',
         'database': 'practica8'
+
     }
     connection = mysql.connector.connect(**config)
     cursor = connection.cursor()
